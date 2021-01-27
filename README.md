@@ -42,7 +42,7 @@ calculate distance with e.g. "Cosine Distance" https://reference.wolfram.com/lan
 e.g. Spam Filter
 - 
 
-Real World Uses/Cases/User-Problems (common tools in parenthesis):
+## Real World Uses/Cases/User-Problems (common tools in parenthesis):
 	- topic modeling (Latent Dirichlet Allocation, Non-negative Matrix Factorization)
 	- text classification (sklearn, spaCy, NLTK)
 		-- e.g. classifying email as spam or legit
@@ -70,14 +70,14 @@ Real World Uses/Cases/User-Problems (common tools in parenthesis):
 	text to voice
 	- fake-news detection
 
-Issues, Limitations, Challenges:
+## Issues, Limitations, Challenges:
 	- Apple's notorious problem of making (accurate) calendar appointments based on text from emails and messages (super hard)
 	- 'negatives' such as 'not' in sentences (very difficult)
 	- understanding from context (very difficult)
 	- legal and contract english (very difficult)
 	- tools for doctors to process large amounts of research publications  (very difficult)
 
-Ethics and NLP
+## Ethics and NLP
 	- Exclusion/Discrimination/Bias
 - Privacy 
 - VSD value sensitive design (http://faculty.washington.edu/ebender/2017_575/#vsd)
@@ -85,7 +85,7 @@ https://aclweb.org/aclwiki/Ethics_in_NLP
 http://faculty.washington.edu/ebender/2017_575/
 
 
-Books:
+## Books:
 	Discussion of Issues
 https://www.amazon.com/Rebooting-AI-Building-Artificial-Intelligence/dp/1524748250
 
@@ -101,7 +101,7 @@ https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032
 .......................................................................................................................................................
 
 
-On Stemmatize vs Lematize
+# On Stemmatize vs Lematize
 
 For NLP it is helpful to reduce forms of words to ones that are easily compared.
 
