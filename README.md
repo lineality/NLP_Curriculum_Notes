@@ -1,19 +1,19 @@
 # NLP_Curriculum_Notes
-NLP Natural Language Processing Curriculum and Applications Notes
+## NLP Natural Language Processing Curriculum, Study Topics and Applications Notes
 
-NLP Study Topics / Curriculum 
 
-Recommended Courses:
+## Recommended Courses:
 - https://www.udemy.com/course/nlp-natural-language-processing-with-python
 
-Tools:
+## Tools:
 	- python string functions
 	- regex https://drive.google.com/file/d/1JVmK-pW4IKHIEj0UUvqLXelcYbbUPhuE/
 - sklearn
 - Multinomial Naive Bayes Classifier
 - NLTK (designed to be adjustable, not for speed)
 - spaCy (designed for speed using one-size fits all models)
-- basilica (?)
+- basilica
+- 
 - Neural Networks:
 - RNN (Recurrent Neural Network)
 - CNN (Convolutional Neural Networks)
@@ -23,7 +23,7 @@ Tools:
 - Generative Auto-Encoder NN
 https://www.udemy.com/course/nlp-natural-language-processing-with-python/learn/lecture/13195724#overview
 
-General Process:
+## General Process:
 - tokenization
 - stop words
 (my blog on this)
@@ -37,7 +37,7 @@ On how vector-embeddings work:
 https://colab.research.google.com/drive/1n0QHVKLmjHhb1J0PVumoxq58-1OevP5b
 calculate distance with e.g. "Cosine Distance" https://reference.wolfram.com/language/ref/CosineDistance.html
 
-Methods, Approaches:
+## Methods, Approaches:
 - Bag Of Words (e.g. with high bias, low variance, Multinomial Naive Bayes Classifier)
 e.g. Spam Filter
 - 
