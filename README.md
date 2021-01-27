@@ -41,6 +41,7 @@ calculate distance with e.g. "Cosine Distance" https://reference.wolfram.com/lan
 - Bag Of Words (e.g. with high bias, low variance, Multinomial Naive Bayes Classifier)
 e.g. Spam Filter
 - Vector Space / vectorizing / embeddings
+- Lexicon Based Analysis
 
 ## Real World Uses/Cases/User-Problems (common tools in parenthesis):
 	- topic modeling (Latent Dirichlet Allocation, Non-negative Matrix Factorization)
