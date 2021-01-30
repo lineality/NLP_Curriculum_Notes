@@ -7,6 +7,7 @@ https://www.udemy.com/course/nlp-natural-language-processing-with-python
 ## Recommended Books:
 https://www.amazon.com/Natural-Language-Processing-Action-Understanding/dp/B07X37578L
 
+# What is NLP used for? (What is Machine Learning / Data Science / AI used for?)
 ## Real World Uses/Cases/User-Problems (common tools in parenthesis):
 	- topic modeling (Latent Dirichlet Allocation, Non-negative Matrix Factorization)
 	- text classification (sklearn, spaCy, NLTK)
@@ -155,9 +156,7 @@ NLTK is easier to customize.
 .......................................................................................................................................................
 
 
-On
 
-...
 
 New Steps (GGA):
 Alias Standardization
