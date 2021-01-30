@@ -124,7 +124,12 @@ In various languages one 'word' may have different forms:
 - wolf, wolves
 - be, are, was, were, is,
 
-In some languages (such as japanese) there is a 'dictionary form' separate from the gazillion other forms based on that. But in languages such as English, there is no 'dictionary form,' so this was created for this purpose and called a lema.
+In some languages (such as Japanese) there is a 'dictionary form' separate from the gazillion other word-forms based on that. But in languages such as English, there is no 'dictionary form,' so a new 'meta-word-form' was created for this purpose and this is called a "lema."
+
+Stem vs. Lema
+
+In some cases you could try to use a 'stem' (form of a word) as a proxy for a 'dictionary form' or 'lema' form of a word. 
+- e.g. pour poured pouring
 
 The problem with 'stems' is that often clipping the end off a word will not give you the same 'root-step'
 
