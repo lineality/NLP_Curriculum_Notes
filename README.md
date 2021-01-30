@@ -149,8 +149,11 @@ The 'lemma' is one standard/root/dictionary/generalized/abstract form which all 
 
 
 ## On NLTK vs spaCy
+Overall, spaCy is optimized for fast and easy out-of-the-box use.
+NLTK is easier to customize. 
 
-For
+#### If you want more personal customization -> use NLTK
+#### If you want optimized as-is performance -> use spaCy
 
 .......................................................................................................................................................
 
