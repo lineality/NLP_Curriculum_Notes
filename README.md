@@ -35,9 +35,6 @@ https://www.amazon.com/Natural-Language-Processing-Action-Understanding/dp/B07X3
 	text to voice
 	- fake-news detection
 
-## Recommended Courses:
-- https://www.udemy.com/course/nlp-natural-language-processing-with-python
-
 ## Tools:
 	- python string functions
 	- regex https://drive.google.com/file/d/1JVmK-pW4IKHIEj0UUvqLXelcYbbUPhuE/
