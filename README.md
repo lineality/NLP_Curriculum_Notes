@@ -112,35 +112,36 @@ https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032
 .......................................................................................................................................................
 
 
-# On Stemmatize vs Lematize
+# On Stemmatize vs Lemmatize
 
 For NLP it is helpful to reduce forms of words to ones that are easily compared.
 
 Two methods for this are 
-1. stemmatizing (or reducing to clipped 'stems')
-2. lemmatizing, or reducing to a more general and abstract lemma
+1. stemmatizing (or reducing to clipped 'stem' form of the word)
+2. lemmatizing (or using a more general and abstract "lemma" form of a word)
+https://en.wikipedia.org/wiki/Lemmatisation 
 
-In various languages one 'word' may have different forms: 
+In various languages one 'word' may have different forms that are spelled very differently: 
 - wolf, wolves
 - be, are, was, were, is,
 
-In some languages (such as Japanese) there is a 'dictionary form' separate from the gazillion other word-forms based on that. But in languages such as English, there is no 'dictionary form,' so a new 'meta-word-form' was created for this purpose and this is called a "lema."
+In some languages (such as Japanese) there is a 'dictionary form' separate from the gazillion other word-forms based on that. But in languages such as English, there is no 'dictionary form,' so a new 'meta-word-form' was created for this purpose and this is called a "lemma."
 
-Stem vs. Lema
+## Stem vs. lemma
 
-In some cases you could try to use a 'stem' (form of a word) as a proxy for a 'dictionary form' or 'lema' form of a word. 
+In some cases you could use a 'stem' (form of a word) as a proxy for a 'dictionary form' or 'lemma' form of a word. 
 - e.g. pour poured pouring
 
+The stem of these examples is all the same "pour," which you can get by removing the extra letters in the other forms (the 'ed' and the 'ing')
+
 The problem with 'stems' is that often clipping the end off a word will not give you the same 'root-step'
+- fishes -> fish (this is ok)
+- wolves -> wolv (this is not ok. 'wolf' and 'wolv' are not the same "root" form)
 
-wolves -> wolv
+This is a problem when the stems "wolf" and "wolv" would be treated by the NLP engine as two unrelated words (assumed to have different meanings and uses, which is an error in the model).
 
-so the stems "wolf" and "wolv" would be treated by the NLP engine as two unrelated words.
+The 'lemma' is one standard/root/dictionary/generalized/abstract form which all other forms can be converted to so that different texts can be compared.  
 
-The 'lema' is one standard 'good' or 'wolf' or 'is' which all forms are 'reduced to' so that different texts can be compared.  
-
-
-...
 
 
 
