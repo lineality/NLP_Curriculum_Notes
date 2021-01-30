@@ -2,10 +2,10 @@
 ## NLP Natural Language Processing Curriculum, Study Topics and Applications Notes
 
 ## Recommended Courses:
-- https://www.udemy.com/course/nlp-natural-language-processing-with-python
+https://www.udemy.com/course/nlp-natural-language-processing-with-python
 
-## Recommended Courses:
--  
+## Recommended Books:
+https://www.amazon.com/Natural-Language-Processing-Action-Understanding/dp/B07X37578L
 
 ## Real World Uses/Cases/User-Problems (common tools in parenthesis):
 	- topic modeling (Latent Dirichlet Allocation, Non-negative Matrix Factorization)
