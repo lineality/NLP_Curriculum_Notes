@@ -75,34 +75,9 @@ calculate distance with e.g. "Cosine Distance" https://reference.wolfram.com/lan
 e.g. Spam Filter
 - Vector Space / vectorizing / embeddings
 - Lexicon Based Analysis
+- Sequence-to-sequence
 
-## Real World Uses/Cases/User-Problems (common tools in parenthesis):
-	- topic modeling (Latent Dirichlet Allocation, Non-negative Matrix Factorization)
-	- text classification (sklearn, spaCy, NLTK)
-		-- e.g. classifying email as spam or legit
-- spam filter (Multinomial Naive Bayes Classifier (vs. Gaussian Naive Bayes classification)) 
-	-- example of classification
--- statquest https://www.youtube.com/watch?v=O2L2Uv9pdDA
-	- feature extraction (sklearn/spaCy?)
-	- flagging offensive / inappropriate content (hate-speech and abuse detection)
-	- NER = Named Entity Recognition
-- POS = part of speech tagging 
-- entity extraction (spaCy function)
-- recommendation (various)
-- fuzzy search (various)
-- sentiment analysis (vector-embeddings: NLTK, spaCy, basilica, R)
-	-- movie reviews
-	-- customer feedback (restaurant, online shop)
-	-- e,g, https://www.linkedin.com/learning/integrating-tableau-and-r-for-data-science/where-r-rules 
-- chatbots / assistants / agents
-- text generation (LSTM, GRU, NN)
-- Summarizing Long Text Documents (RNN, CNN, Transformers)
-- Understanding Commands ("computer, do X!")
-	-- Understanding Text Commands
-	?
-	voice to text
-	text to voice
-	- fake-news detection
+
 
 ## Issues, Limitations, Challenges:
 	- Apple's notorious problem of making (accurate) calendar appointments based on text from emails and messages (super hard)
@@ -149,7 +124,7 @@ In various languages one 'word' may have different forms:
 - wolf, wolves
 - be, are, was, were, is,
 
-In some languages (such as japanese) there is a 'dictionary form' separate from the gazillion other forms based on that. But in languages like english, there is no 'dictionary form,' so this was created for this purpose and called a lema.
+In some languages (such as japanese) there is a 'dictionary form' separate from the gazillion other forms based on that. But in languages such as English, there is no 'dictionary form,' so this was created for this purpose and called a lema.
 
 The problem with 'stems' is that often clipping the end off a word will not give you the same 'root-step'
 
